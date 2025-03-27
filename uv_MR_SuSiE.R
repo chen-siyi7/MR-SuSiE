@@ -1,4 +1,6 @@
-MR_SuSiE_sel = function(n1, n2, Y2, Z2, corr, gamma_hat){
+library(susieR)
+
+MR_susie_sel = function(n1, n2, Y2, Z2, corr, gamma_hat){
   res = susie(cbind(Z2,Z2%*%gamma_hat), Y2, L = dim(Z2)[2] + 1, intercept = F)
   Iu = sort(as.vector(unlist(res$sets$cs)))
   Iu = Iu[Iu <= dim(Z2)[2]]
@@ -6,7 +8,7 @@ MR_SuSiE_sel = function(n1, n2, Y2, Z2, corr, gamma_hat){
   return(Ix0)
 }
 
-sum_MR_SuSiE_sel = function(corr, betaZX, betaZY, se_betaZY, gamma_hat, n1, n2){
+sum_MR_susie_uv = function(corr, betaZX, betaZY, se_betaZY, gamma_hat, n1, n2){
   ZTZ = corr
   p = dim(corr)[1]
   ZTY = matrix(diag(ZTZ) * betaZY, ncol = 1);
