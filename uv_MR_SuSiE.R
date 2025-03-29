@@ -17,10 +17,11 @@ sum_MR_susie_uv = function(corr, betaZX, betaZY, se_betaZY, gamma_hat, n1, n2){
     YTY[SNP] = (n2-1)*ZTZ[SNP, SNP]*(se_betaZY^2)[SNP] + ZTY[SNP]*betaZY[SNP]
   }
   YTY = median(YTY)
-  res = susie_suff_stat(XtX = corr, Xty = ZTY, yty = YTY, n = max(n1, n2), L = dim(corr)[2] + 1, estimate_residual_variance = FALSE)
+  res = susie_suff_stat(XtX = corr, Xty = ZTY, yty = YTY, n = max(n1, n2), L = dim(corr)[2] - 1, 
+                        estimate_residual_variance = F,
+                        estimate_prior_variance = F)
   Iu = sort(as.vector(unlist(res$sets$cs)))
   Iu = Iu[Iu <= p]
   Ix0 = setdiff(1:dim(corr)[1], Iu)
   return(Ix0)
 }
-
