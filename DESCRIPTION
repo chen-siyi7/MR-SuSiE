@@ -1,0 +1,22 @@
+Package: MRSuSiE
+Type: Package
+Title: Joint Selection of Causal Exposures and Invalid Instruments
+Version: 0.1.0
+Authors@R: person("Siyi", "Chen", email = "sche11@lsuhsc.edu", role = c("aut", "cre"))
+Description: Implements the MVMR-SuSiE summary-data method for joint
+    prioritization of causal exposures and variants with direct outcome
+    effects. The package supports continuous-outcome sufficient statistics,
+    binary-outcome score statistics, linkage disequilibrium, and an
+    LD-adjusted corrected-score estimator after direct-variant selection.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: stats, susieR (>= 0.12.0)
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://github.com/chen-siyi7/MR-SuSiE
+BugReports: https://github.com/chen-siyi7/MR-SuSiE/issues
+NeedsCompilation: no
+Packaged: 2026-08-02 11:06:41 UTC; yui
+Author: Siyi Chen [aut, cre]
+Maintainer: Siyi Chen <sche11@lsuhsc.edu>
