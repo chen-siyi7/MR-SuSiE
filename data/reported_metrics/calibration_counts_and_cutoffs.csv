@@ -1,0 +1,404 @@
+cohort,panel,method,scheduled_null_targets,usable_null_targets,usable_null_datasets,calibration_datasets,cutoff_usable_null,cutoff_all_attempt,expected_upper_tail_observations,tail_status,calibration_version
+fresh_independent_s01,matched_r2_0.01,MVMR-SuSiE score component,2000,2000,1000,1000,2.43844494586477,2.43844494586477,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s01,matched_r2_0.01,MVMR-IVW,2000,2000,1000,1000,2.12835039523303,2.12835039523303,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s01,matched_r2_0.01,MVMR-Egger,2000,2000,1000,1000,2.09043607163029,2.09043607163029,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s01,matched_r2_0.01,MVMR-Lasso,2000,2000,1000,1000,3.53970857597347,3.53970857597347,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s01,matched_r2_0.01,MVMR-median,2000,2000,1000,1000,2.76732714365858,2.76732714365858,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s01,matched_r2_0.01,MVMR-robust,2000,1946,973,1000,2.82072187198714,2.79090222452562,97.3,available_upper_tail,expanded_calibration_v2
+fresh_independent_s01,matched_r2_0.01,MVMR-IVW-LD,2000,2000,1000,1000,2.12835039523303,2.12835039523303,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s01,matched_r2_0.01,MVMR-IVW-LD-ME,2000,2000,1000,1000,2.13050154526911,2.13050154526911,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s01,matched_r2_0.01,MVMR-Egger-LD,2000,2000,1000,1000,2.11416202203077,2.11416202203077,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s01,matched_r2_0.01,MV-IWAS,2000,2000,1000,1000,2.10726737178326,2.10726737178326,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s01,matched_r2_0.01,IWAS-Egger-projection,2000,2000,1000,1000,2.09737675683903,2.09737675683903,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s01,matched_r2_0.01,MVMR-cML-SuSiE-BIC,2000,202,202,1000,26.9499214786019,20.485910080568,10.1,limited_upper_tail,expanded_calibration_v2
+fresh_independent_s02,matched_r2_0.01,MVMR-SuSiE score component,2000,2000,1000,1000,2.07431024236561,2.07431024236561,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s02,matched_r2_0.01,MVMR-IVW,2000,2000,1000,1000,2.08085920527868,2.08085920527868,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s02,matched_r2_0.01,MVMR-Egger,2000,2000,1000,1000,2.09390532957286,2.09390532957286,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s02,matched_r2_0.01,MVMR-Lasso,2000,2000,1000,1000,3.66609680878146,3.66609680878146,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s02,matched_r2_0.01,MVMR-median,2000,2000,1000,1000,2.84138695103807,2.84138695103807,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s02,matched_r2_0.01,MVMR-robust,2000,1929,965,1000,2.78145166684927,2.74519268300163,96.45,available_upper_tail,expanded_calibration_v2
+fresh_independent_s02,matched_r2_0.01,MVMR-IVW-LD,2000,2000,1000,1000,2.08085920527868,2.08085920527868,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s02,matched_r2_0.01,MVMR-IVW-LD-ME,2000,2000,1000,1000,2.07973100727097,2.07973100727097,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s02,matched_r2_0.01,MVMR-Egger-LD,2000,2000,1000,1000,2.03600074442748,2.03600074442748,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s02,matched_r2_0.01,MV-IWAS,2000,2000,1000,1000,2.06086269080911,2.06086269080911,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s02,matched_r2_0.01,IWAS-Egger-projection,2000,2000,1000,1000,2.01755175450795,2.01755175450795,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s02,matched_r2_0.01,MVMR-cML-SuSiE-BIC,2000,270,265,1000,19.6802163174753,14.5774409035171,13.5,limited_upper_tail,expanded_calibration_v2
+fresh_independent_s03,matched_r2_0.01,MVMR-SuSiE score component,2000,2000,1000,1000,2.45927160925033,2.45927160925033,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s03,matched_r2_0.01,MVMR-IVW,2000,2000,1000,1000,2.16292389375806,2.16292389375806,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s03,matched_r2_0.01,MVMR-Egger,2000,2000,1000,1000,2.20630771287714,2.20630771287714,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s03,matched_r2_0.01,MVMR-Lasso,2000,2000,1000,1000,4.23123378185784,4.23123378185784,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s03,matched_r2_0.01,MVMR-median,2000,2000,1000,1000,3.09331985570198,3.09331985570198,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s03,matched_r2_0.01,MVMR-robust,2000,1918,959,1000,2.93318579845898,2.882691681656,95.9,available_upper_tail,expanded_calibration_v2
+fresh_independent_s03,matched_r2_0.01,MVMR-IVW-LD,2000,2000,1000,1000,2.16292389375806,2.16292389375806,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s03,matched_r2_0.01,MVMR-IVW-LD-ME,2000,2000,1000,1000,2.16473687869233,2.16473687869233,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s03,matched_r2_0.01,MVMR-Egger-LD,2000,2000,1000,1000,2.1595781887913,2.1595781887913,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s03,matched_r2_0.01,MV-IWAS,2000,2000,1000,1000,2.15211457417393,2.15211457417393,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s03,matched_r2_0.01,IWAS-Egger-projection,2000,2000,1000,1000,2.14026386367978,2.14026386367978,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s03,matched_r2_0.01,MVMR-cML-SuSiE-BIC,2000,228,227,1000,28.5274256696562,21.4426448651509,11.4,limited_upper_tail,expanded_calibration_v2
+fresh_independent_s04,matched_r2_0.01,MVMR-SuSiE score component,2000,2000,1000,1000,2.14973451609176,2.14973451609176,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s04,matched_r2_0.01,MVMR-IVW,2000,2000,1000,1000,2.20171384537916,2.20171384537916,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s04,matched_r2_0.01,MVMR-Egger,2000,2000,1000,1000,2.18376379034146,2.18376379034146,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s04,matched_r2_0.01,MVMR-Lasso,2000,2000,1000,1000,4.63989398199374,4.63989398199374,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s04,matched_r2_0.01,MVMR-median,2000,2000,1000,1000,3.22985424384674,3.22985424384674,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s04,matched_r2_0.01,MVMR-robust,2000,1930,965,1000,2.91517718269904,2.88682851456108,96.5,available_upper_tail,expanded_calibration_v2
+fresh_independent_s04,matched_r2_0.01,MVMR-IVW-LD,2000,2000,1000,1000,2.20171384537917,2.20171384537917,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s04,matched_r2_0.01,MVMR-IVW-LD-ME,2000,2000,1000,1000,2.19893699438443,2.19893699438443,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s04,matched_r2_0.01,MVMR-Egger-LD,2000,2000,1000,1000,2.18614676933006,2.18614676933006,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s04,matched_r2_0.01,MV-IWAS,2000,2000,1000,1000,2.17310239518779,2.17310239518779,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s04,matched_r2_0.01,IWAS-Egger-projection,2000,2000,1000,1000,2.16417192478935,2.16417192478935,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s04,matched_r2_0.01,MVMR-cML-SuSiE-BIC,2000,256,251,1000,19.3510918473546,13.3963306373588,12.8,limited_upper_tail,expanded_calibration_v2
+fresh_independent_s05,matched_r2_0.01,MVMR-SuSiE score component,2000,2000,1000,1000,2.28925824941372,2.28925824941372,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s05,matched_r2_0.01,MVMR-IVW,2000,2000,1000,1000,2.03801694161372,2.03801694161372,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s05,matched_r2_0.01,MVMR-Egger,2000,2000,1000,1000,2.07766049884253,2.07766049884253,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s05,matched_r2_0.01,MVMR-Lasso,2000,2000,1000,1000,3.7498249111061,3.7498249111061,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s05,matched_r2_0.01,MVMR-median,2000,2000,1000,1000,2.79219911318074,2.79219911318074,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s05,matched_r2_0.01,MVMR-robust,2000,1930,965,1000,2.7053783310124,2.69255888770128,96.5,available_upper_tail,expanded_calibration_v2
+fresh_independent_s05,matched_r2_0.01,MVMR-IVW-LD,2000,2000,1000,1000,2.03801694161371,2.03801694161371,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s05,matched_r2_0.01,MVMR-IVW-LD-ME,2000,2000,1000,1000,2.03661150677437,2.03661150677437,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s05,matched_r2_0.01,MVMR-Egger-LD,2000,2000,1000,1000,2.08531778979183,2.08531778979183,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s05,matched_r2_0.01,MV-IWAS,2000,2000,1000,1000,2.0314270747594,2.0314270747594,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s05,matched_r2_0.01,IWAS-Egger-projection,2000,2000,1000,1000,2.0737790790696,2.0737790790696,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s05,matched_r2_0.01,MVMR-cML-SuSiE-BIC,2000,231,230,1000,26.4125694838441,20.9798169788282,11.55,limited_upper_tail,expanded_calibration_v2
+fresh_independent_s06,matched_r2_0.01,MVMR-SuSiE score component,2000,2000,1000,1000,2.13445877515408,2.13445877515408,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s06,matched_r2_0.01,MVMR-IVW,2000,2000,1000,1000,2.1007851685532,2.1007851685532,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s06,matched_r2_0.01,MVMR-Egger,2000,2000,1000,1000,2.11650850422096,2.11650850422096,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s06,matched_r2_0.01,MVMR-Lasso,2000,2000,1000,1000,4.34925488631525,4.34925488631525,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s06,matched_r2_0.01,MVMR-median,2000,2000,1000,1000,3.09948746715643,3.09948746715643,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s06,matched_r2_0.01,MVMR-robust,2000,1928,964,1000,2.82076322217256,2.80127998780561,96.4,available_upper_tail,expanded_calibration_v2
+fresh_independent_s06,matched_r2_0.01,MVMR-IVW-LD,2000,2000,1000,1000,2.10078516855321,2.10078516855321,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s06,matched_r2_0.01,MVMR-IVW-LD-ME,2000,2000,1000,1000,2.10480027036985,2.10480027036985,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s06,matched_r2_0.01,MVMR-Egger-LD,2000,2000,1000,1000,2.13423072888061,2.13423072888061,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s06,matched_r2_0.01,MV-IWAS,2000,2000,1000,1000,2.07849196872419,2.07849196872419,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s06,matched_r2_0.01,IWAS-Egger-projection,2000,2000,1000,1000,2.11580932870173,2.11580932870173,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s06,matched_r2_0.01,MVMR-cML-SuSiE-BIC,2000,239,236,1000,19.5019992199749,13.8411657124956,11.95,limited_upper_tail,expanded_calibration_v2
+fresh_independent_s07,matched_r2_0.01,MVMR-SuSiE score component,2000,2000,1000,1000,3.25550758362254,3.25550758362254,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s07,matched_r2_0.01,MVMR-IVW,2000,2000,1000,1000,2.12802666450909,2.12802666450909,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s07,matched_r2_0.01,MVMR-Egger,2000,2000,1000,1000,2.1390825868462,2.1390825868462,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s07,matched_r2_0.01,MVMR-Lasso,2000,2000,1000,1000,8.42663832719476,8.42663832719476,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s07,matched_r2_0.01,MVMR-median,2000,2000,1000,1000,4.77846414735791,4.77846414735791,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s07,matched_r2_0.01,MVMR-robust,2000,1888,945,1000,2.92907232972437,2.8853632192367,94.4,available_upper_tail,expanded_calibration_v2
+fresh_independent_s07,matched_r2_0.01,MVMR-IVW-LD,2000,2000,1000,1000,2.12802666450908,2.12802666450908,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s07,matched_r2_0.01,MVMR-IVW-LD-ME,2000,2000,1000,1000,2.13074091958551,2.13074091958551,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s07,matched_r2_0.01,MVMR-Egger-LD,2000,2000,1000,1000,2.13811829190815,2.13811829190815,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s07,matched_r2_0.01,MV-IWAS,2000,2000,1000,1000,2.1266016832199,2.1266016832199,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s07,matched_r2_0.01,IWAS-Egger-projection,2000,2000,1000,1000,2.13517884613777,2.13517884613777,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s07,matched_r2_0.01,MVMR-cML-SuSiE-BIC,2000,185,185,1000,25.2175389152132,17.7842652596785,9.25,limited_upper_tail,expanded_calibration_v2
+fresh_independent_s08,matched_r2_0.01,MVMR-SuSiE score component,2000,1998,999,1000,2.63137910561805,2.63073658016369,99.9,available_upper_tail,expanded_calibration_v2
+fresh_independent_s08,matched_r2_0.01,MVMR-IVW,2000,2000,1000,1000,2.13864438312938,2.13864438312938,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s08,matched_r2_0.01,MVMR-Egger,2000,2000,1000,1000,2.20683231093143,2.20683231093143,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s08,matched_r2_0.01,MVMR-Lasso,2000,2000,1000,1000,9.48495686359999,9.48495686359999,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s08,matched_r2_0.01,MVMR-median,2000,2000,1000,1000,5.20567006440567,5.20567006440567,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s08,matched_r2_0.01,MVMR-robust,2000,1870,935,1000,3.00784835093557,2.91931407839254,93.5,available_upper_tail,expanded_calibration_v2
+fresh_independent_s08,matched_r2_0.01,MVMR-IVW-LD,2000,2000,1000,1000,2.13864438312938,2.13864438312938,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s08,matched_r2_0.01,MVMR-IVW-LD-ME,2000,2000,1000,1000,2.13939068415034,2.13939068415034,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s08,matched_r2_0.01,MVMR-Egger-LD,2000,2000,1000,1000,2.18394747307909,2.18394747307909,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s08,matched_r2_0.01,MV-IWAS,2000,2000,1000,1000,2.10852952862751,2.10852952862751,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s08,matched_r2_0.01,IWAS-Egger-projection,2000,2000,1000,1000,2.16773616173001,2.16773616173001,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s08,matched_r2_0.01,MVMR-cML-SuSiE-BIC,2000,272,270,1000,18.3144425995988,12.2832052607976,13.6,limited_upper_tail,expanded_calibration_v2
+fresh_independent_s09,matched_r2_0.01,MVMR-SuSiE score component,2000,2000,1000,1000,3.32906455720763,3.32906455720763,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s09,matched_r2_0.01,MVMR-IVW,2000,2000,1000,1000,2.13376850401111,2.13376850401111,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s09,matched_r2_0.01,MVMR-Egger,2000,2000,1000,1000,2.1934885248934,2.1934885248934,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s09,matched_r2_0.01,MVMR-Lasso,2000,2000,1000,1000,9.43300648084618,9.43300648084618,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s09,matched_r2_0.01,MVMR-median,2000,2000,1000,1000,5.27605963515969,5.27605963515969,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s09,matched_r2_0.01,MVMR-robust,2000,1920,960,1000,3.00428608007788,2.93253155367003,96.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s09,matched_r2_0.01,MVMR-IVW-LD,2000,2000,1000,1000,2.13376850401111,2.13376850401111,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s09,matched_r2_0.01,MVMR-IVW-LD-ME,2000,2000,1000,1000,2.14082543711623,2.14082543711623,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s09,matched_r2_0.01,MVMR-Egger-LD,2000,2000,1000,1000,2.17654109134672,2.17654109134672,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s09,matched_r2_0.01,MV-IWAS,2000,2000,1000,1000,2.12039390486324,2.12039390486324,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s09,matched_r2_0.01,IWAS-Egger-projection,2000,2000,1000,1000,2.15734599759306,2.15734599759306,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s09,matched_r2_0.01,MVMR-cML-SuSiE-BIC,2000,165,165,1000,26.6619430364263,16.7161792634024,8.25,limited_upper_tail,expanded_calibration_v2
+fresh_independent_s10,matched_r2_0.01,MVMR-SuSiE score component,2000,2000,1000,1000,3.03292778126559,3.03292778126559,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s10,matched_r2_0.01,MVMR-IVW,2000,2000,1000,1000,2.1519370286184,2.1519370286184,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s10,matched_r2_0.01,MVMR-Egger,2000,2000,1000,1000,2.17460871406379,2.17460871406379,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s10,matched_r2_0.01,MVMR-Lasso,2000,2000,1000,1000,10.2484093396401,10.2484093396401,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s10,matched_r2_0.01,MVMR-median,2000,2000,1000,1000,5.5389918660704,5.5389918660704,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s10,matched_r2_0.01,MVMR-robust,2000,1899,951,1000,3.01607782674307,2.96089127523964,94.95,available_upper_tail,expanded_calibration_v2
+fresh_independent_s10,matched_r2_0.01,MVMR-IVW-LD,2000,2000,1000,1000,2.15193702861839,2.15193702861839,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s10,matched_r2_0.01,MVMR-IVW-LD-ME,2000,2000,1000,1000,2.14749189179124,2.14749189179124,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s10,matched_r2_0.01,MVMR-Egger-LD,2000,2000,1000,1000,2.17944465751515,2.17944465751515,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s10,matched_r2_0.01,MV-IWAS,2000,2000,1000,1000,2.12842984624224,2.12842984624224,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s10,matched_r2_0.01,IWAS-Egger-projection,2000,2000,1000,1000,2.16453781782849,2.16453781782849,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s10,matched_r2_0.01,MVMR-cML-SuSiE-BIC,2000,246,242,1000,17.4028069234129,12.0258414841567,12.3,limited_upper_tail,expanded_calibration_v2
+fresh_independent_s11,matched_r2_0.01,MVMR-SuSiE score component,2000,2000,1000,1000,3.22702287332534,3.22702287332534,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s11,matched_r2_0.01,MVMR-IVW,2000,2000,1000,1000,2.07879301551153,2.07879301551153,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s11,matched_r2_0.01,MVMR-Egger,2000,2000,1000,1000,2.16773709463516,2.16773709463516,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s11,matched_r2_0.01,MVMR-Lasso,2000,2000,1000,1000,8.90112969456679,8.90112969456679,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s11,matched_r2_0.01,MVMR-median,2000,2000,1000,1000,4.99013038687834,4.99013038687834,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s11,matched_r2_0.01,MVMR-robust,2000,1878,940,1000,2.96761614230425,2.87731613572869,93.9,available_upper_tail,expanded_calibration_v2
+fresh_independent_s11,matched_r2_0.01,MVMR-IVW-LD,2000,2000,1000,1000,2.07879301551153,2.07879301551153,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s11,matched_r2_0.01,MVMR-IVW-LD-ME,2000,2000,1000,1000,2.07905739202244,2.07905739202244,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s11,matched_r2_0.01,MVMR-Egger-LD,2000,2000,1000,1000,2.18013657693652,2.18013657693652,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s11,matched_r2_0.01,MV-IWAS,2000,2000,1000,1000,2.06992232613045,2.06992232613045,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s11,matched_r2_0.01,IWAS-Egger-projection,2000,2000,1000,1000,2.15740031001441,2.15740031001441,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s11,matched_r2_0.01,MVMR-cML-SuSiE-BIC,2000,164,164,1000,25.8912946362055,16.8659229038401,8.2,limited_upper_tail,expanded_calibration_v2
+fresh_independent_s12,matched_r2_0.01,MVMR-SuSiE score component,2000,2000,1000,1000,2.87419917427716,2.87419917427716,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s12,matched_r2_0.01,MVMR-IVW,2000,2000,1000,1000,2.19942503655609,2.19942503655609,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s12,matched_r2_0.01,MVMR-Egger,2000,2000,1000,1000,2.199269073586,2.199269073586,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s12,matched_r2_0.01,MVMR-Lasso,2000,2000,1000,1000,9.82804079531342,9.82804079531342,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s12,matched_r2_0.01,MVMR-median,2000,2000,1000,1000,5.56102914659383,5.56102914659383,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s12,matched_r2_0.01,MVMR-robust,2000,1892,946,1000,2.79604087171792,2.78244920314195,94.6,available_upper_tail,expanded_calibration_v2
+fresh_independent_s12,matched_r2_0.01,MVMR-IVW-LD,2000,2000,1000,1000,2.19942503655608,2.19942503655608,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s12,matched_r2_0.01,MVMR-IVW-LD-ME,2000,2000,1000,1000,2.20054136953754,2.20054136953754,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s12,matched_r2_0.01,MVMR-Egger-LD,2000,2000,1000,1000,2.19721315163543,2.19721315163543,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s12,matched_r2_0.01,MV-IWAS,2000,2000,1000,1000,2.18425935952966,2.18425935952966,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s12,matched_r2_0.01,IWAS-Egger-projection,2000,2000,1000,1000,2.17552832169428,2.17552832169428,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s12,matched_r2_0.01,MVMR-cML-SuSiE-BIC,2000,264,262,1000,17.7408539260112,12.5379517626248,13.2,limited_upper_tail,expanded_calibration_v2
+fresh_independent_s13,matched_r2_0.01,MVMR-SuSiE score component,2000,1994,997,1000,3.13170519715369,3.12216471799245,99.7,available_upper_tail,expanded_calibration_v2
+fresh_independent_s13,matched_r2_0.01,MVMR-IVW,2000,2000,1000,1000,2.22661583925253,2.22661583925253,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s13,matched_r2_0.01,MVMR-Egger,2000,2000,1000,1000,2.23925912625074,2.23925912625074,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s13,matched_r2_0.01,MVMR-Lasso,2000,2000,1000,1000,6.09360961801429,6.09360961801429,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s13,matched_r2_0.01,MVMR-median,2000,2000,1000,1000,3.99920026971384,3.99920026971384,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s13,matched_r2_0.01,MVMR-robust,2000,1906,953,1000,7.62571555001398,7.47534223793321,95.3,available_upper_tail,expanded_calibration_v2
+fresh_independent_s13,matched_r2_0.01,MVMR-IVW-LD,2000,2000,1000,1000,2.22661583925253,2.22661583925253,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s13,matched_r2_0.01,MVMR-IVW-LD-ME,2000,2000,1000,1000,2.26404104865154,2.26404104865154,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s13,matched_r2_0.01,MVMR-Egger-LD,2000,2000,1000,1000,2.18943773693269,2.18943773693269,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s13,matched_r2_0.01,MV-IWAS,2000,2000,1000,1000,2.21765897957741,2.21765897957741,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s13,matched_r2_0.01,IWAS-Egger-projection,2000,2000,1000,1000,2.18537084405331,2.18537084405331,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s13,matched_r2_0.01,MVMR-cML-SuSiE-BIC,2000,254,254,1000,25.1822534112812,18.8826839630596,12.7,limited_upper_tail,expanded_calibration_v2
+fresh_independent_s14,matched_r2_0.01,MVMR-SuSiE score component,2000,1998,999,1000,2.63778954519777,2.63569588604392,99.9,available_upper_tail,expanded_calibration_v2
+fresh_independent_s14,matched_r2_0.01,MVMR-IVW,2000,2000,1000,1000,2.29768302652659,2.29768302652659,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s14,matched_r2_0.01,MVMR-Egger,2000,2000,1000,1000,2.26425662134845,2.26425662134845,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s14,matched_r2_0.01,MVMR-Lasso,2000,2000,1000,1000,7.23700761444555,7.23700761444555,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s14,matched_r2_0.01,MVMR-median,2000,2000,1000,1000,4.28643853110709,4.28643853110709,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s14,matched_r2_0.01,MVMR-robust,2000,1928,964,1000,9.7231274148353,9.61888010763879,96.4,available_upper_tail,expanded_calibration_v2
+fresh_independent_s14,matched_r2_0.01,MVMR-IVW-LD,2000,2000,1000,1000,2.2976830265266,2.2976830265266,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s14,matched_r2_0.01,MVMR-IVW-LD-ME,2000,2000,1000,1000,2.30797062227963,2.30797062227963,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s14,matched_r2_0.01,MVMR-Egger-LD,2000,2000,1000,1000,2.26877168238716,2.26877168238716,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s14,matched_r2_0.01,MV-IWAS,2000,2000,1000,1000,2.28433190812955,2.28433190812955,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s14,matched_r2_0.01,IWAS-Egger-projection,2000,2000,1000,1000,2.25497223317686,2.25497223317686,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s14,matched_r2_0.01,MVMR-cML-SuSiE-BIC,2000,214,214,1000,18.0501205222185,12.6465275501867,10.7,limited_upper_tail,expanded_calibration_v2
+fresh_independent_s01,original_full_LD,MVMR-SuSiE score component,2000,2000,1000,1000,2.43844494586477,2.43844494586477,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s01,original_full_LD,MVMR-IVW,2000,2000,1000,1000,2.12835039523303,2.12835039523303,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s01,original_full_LD,MVMR-Egger,2000,2000,1000,1000,2.09043607163029,2.09043607163029,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s01,original_full_LD,MVMR-Lasso,2000,2000,1000,1000,3.53970857597347,3.53970857597347,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s01,original_full_LD,MVMR-median,2000,2000,1000,1000,2.76732714365858,2.76732714365858,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s01,original_full_LD,MVMR-robust,2000,1946,973,1000,2.82072187198714,2.79090222452562,97.3,available_upper_tail,expanded_calibration_v2
+fresh_independent_s01,original_full_LD,MVMR-IVW-LD,2000,2000,1000,1000,2.12835039523303,2.12835039523303,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s01,original_full_LD,MVMR-IVW-LD-ME,2000,2000,1000,1000,2.13050154526911,2.13050154526911,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s01,original_full_LD,MVMR-Egger-LD,2000,2000,1000,1000,2.11416202203077,2.11416202203077,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s01,original_full_LD,MV-IWAS,2000,2000,1000,1000,2.10726737178326,2.10726737178326,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s01,original_full_LD,IWAS-Egger-projection,2000,2000,1000,1000,2.09737675683903,2.09737675683903,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s01,original_full_LD,MVMR-cML-SuSiE-BIC,2000,202,202,1000,26.9499214786019,20.485910080568,10.1,limited_upper_tail,expanded_calibration_v2
+fresh_independent_s02,original_full_LD,MVMR-SuSiE score component,2000,2000,1000,1000,2.07431024236561,2.07431024236561,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s02,original_full_LD,MVMR-IVW,2000,2000,1000,1000,2.08085920527868,2.08085920527868,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s02,original_full_LD,MVMR-Egger,2000,2000,1000,1000,2.09390532957286,2.09390532957286,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s02,original_full_LD,MVMR-Lasso,2000,2000,1000,1000,3.66609680878146,3.66609680878146,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s02,original_full_LD,MVMR-median,2000,2000,1000,1000,2.84138695103807,2.84138695103807,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s02,original_full_LD,MVMR-robust,2000,1929,965,1000,2.78145166684927,2.74519268300163,96.45,available_upper_tail,expanded_calibration_v2
+fresh_independent_s02,original_full_LD,MVMR-IVW-LD,2000,2000,1000,1000,2.08085920527868,2.08085920527868,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s02,original_full_LD,MVMR-IVW-LD-ME,2000,2000,1000,1000,2.07973100727097,2.07973100727097,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s02,original_full_LD,MVMR-Egger-LD,2000,2000,1000,1000,2.03600074442748,2.03600074442748,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s02,original_full_LD,MV-IWAS,2000,2000,1000,1000,2.06086269080911,2.06086269080911,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s02,original_full_LD,IWAS-Egger-projection,2000,2000,1000,1000,2.01755175450795,2.01755175450795,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s02,original_full_LD,MVMR-cML-SuSiE-BIC,2000,270,265,1000,19.6802163174753,14.5774409035171,13.5,limited_upper_tail,expanded_calibration_v2
+fresh_independent_s03,original_full_LD,MVMR-SuSiE score component,2000,2000,1000,1000,2.45927160925033,2.45927160925033,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s03,original_full_LD,MVMR-IVW,2000,2000,1000,1000,2.16292389375806,2.16292389375806,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s03,original_full_LD,MVMR-Egger,2000,2000,1000,1000,2.20630771287714,2.20630771287714,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s03,original_full_LD,MVMR-Lasso,2000,2000,1000,1000,4.23123378185784,4.23123378185784,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s03,original_full_LD,MVMR-median,2000,2000,1000,1000,3.09331985570198,3.09331985570198,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s03,original_full_LD,MVMR-robust,2000,1918,959,1000,2.93318579845898,2.882691681656,95.9,available_upper_tail,expanded_calibration_v2
+fresh_independent_s03,original_full_LD,MVMR-IVW-LD,2000,2000,1000,1000,2.16292389375806,2.16292389375806,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s03,original_full_LD,MVMR-IVW-LD-ME,2000,2000,1000,1000,2.16473687869233,2.16473687869233,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s03,original_full_LD,MVMR-Egger-LD,2000,2000,1000,1000,2.1595781887913,2.1595781887913,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s03,original_full_LD,MV-IWAS,2000,2000,1000,1000,2.15211457417393,2.15211457417393,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s03,original_full_LD,IWAS-Egger-projection,2000,2000,1000,1000,2.14026386367978,2.14026386367978,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s03,original_full_LD,MVMR-cML-SuSiE-BIC,2000,228,227,1000,28.5274256696562,21.4426448651509,11.4,limited_upper_tail,expanded_calibration_v2
+fresh_independent_s04,original_full_LD,MVMR-SuSiE score component,2000,2000,1000,1000,2.14973451609176,2.14973451609176,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s04,original_full_LD,MVMR-IVW,2000,2000,1000,1000,2.20171384537916,2.20171384537916,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s04,original_full_LD,MVMR-Egger,2000,2000,1000,1000,2.18376379034146,2.18376379034146,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s04,original_full_LD,MVMR-Lasso,2000,2000,1000,1000,4.63989398199374,4.63989398199374,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s04,original_full_LD,MVMR-median,2000,2000,1000,1000,3.22985424384674,3.22985424384674,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s04,original_full_LD,MVMR-robust,2000,1930,965,1000,2.91517718269904,2.88682851456108,96.5,available_upper_tail,expanded_calibration_v2
+fresh_independent_s04,original_full_LD,MVMR-IVW-LD,2000,2000,1000,1000,2.20171384537917,2.20171384537917,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s04,original_full_LD,MVMR-IVW-LD-ME,2000,2000,1000,1000,2.19893699438443,2.19893699438443,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s04,original_full_LD,MVMR-Egger-LD,2000,2000,1000,1000,2.18614676933006,2.18614676933006,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s04,original_full_LD,MV-IWAS,2000,2000,1000,1000,2.17310239518779,2.17310239518779,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s04,original_full_LD,IWAS-Egger-projection,2000,2000,1000,1000,2.16417192478935,2.16417192478935,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s04,original_full_LD,MVMR-cML-SuSiE-BIC,2000,256,251,1000,19.3510918473546,13.3963306373588,12.8,limited_upper_tail,expanded_calibration_v2
+fresh_independent_s05,original_full_LD,MVMR-SuSiE score component,2000,2000,1000,1000,2.28925824941372,2.28925824941372,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s05,original_full_LD,MVMR-IVW,2000,2000,1000,1000,2.03801694161372,2.03801694161372,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s05,original_full_LD,MVMR-Egger,2000,2000,1000,1000,2.07766049884253,2.07766049884253,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s05,original_full_LD,MVMR-Lasso,2000,2000,1000,1000,3.7498249111061,3.7498249111061,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s05,original_full_LD,MVMR-median,2000,2000,1000,1000,2.79219911318074,2.79219911318074,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s05,original_full_LD,MVMR-robust,2000,1930,965,1000,2.7053783310124,2.69255888770128,96.5,available_upper_tail,expanded_calibration_v2
+fresh_independent_s05,original_full_LD,MVMR-IVW-LD,2000,2000,1000,1000,2.03801694161371,2.03801694161371,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s05,original_full_LD,MVMR-IVW-LD-ME,2000,2000,1000,1000,2.03661150677437,2.03661150677437,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s05,original_full_LD,MVMR-Egger-LD,2000,2000,1000,1000,2.08531778979183,2.08531778979183,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s05,original_full_LD,MV-IWAS,2000,2000,1000,1000,2.0314270747594,2.0314270747594,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s05,original_full_LD,IWAS-Egger-projection,2000,2000,1000,1000,2.0737790790696,2.0737790790696,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s05,original_full_LD,MVMR-cML-SuSiE-BIC,2000,231,230,1000,26.4125694838441,20.9798169788282,11.55,limited_upper_tail,expanded_calibration_v2
+fresh_independent_s06,original_full_LD,MVMR-SuSiE score component,2000,2000,1000,1000,2.13445877515408,2.13445877515408,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s06,original_full_LD,MVMR-IVW,2000,2000,1000,1000,2.1007851685532,2.1007851685532,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s06,original_full_LD,MVMR-Egger,2000,2000,1000,1000,2.11650850422096,2.11650850422096,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s06,original_full_LD,MVMR-Lasso,2000,2000,1000,1000,4.34925488631525,4.34925488631525,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s06,original_full_LD,MVMR-median,2000,2000,1000,1000,3.09948746715643,3.09948746715643,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s06,original_full_LD,MVMR-robust,2000,1928,964,1000,2.82076322217256,2.80127998780561,96.4,available_upper_tail,expanded_calibration_v2
+fresh_independent_s06,original_full_LD,MVMR-IVW-LD,2000,2000,1000,1000,2.10078516855321,2.10078516855321,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s06,original_full_LD,MVMR-IVW-LD-ME,2000,2000,1000,1000,2.10480027036985,2.10480027036985,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s06,original_full_LD,MVMR-Egger-LD,2000,2000,1000,1000,2.13423072888061,2.13423072888061,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s06,original_full_LD,MV-IWAS,2000,2000,1000,1000,2.07849196872419,2.07849196872419,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s06,original_full_LD,IWAS-Egger-projection,2000,2000,1000,1000,2.11580932870173,2.11580932870173,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s06,original_full_LD,MVMR-cML-SuSiE-BIC,2000,239,236,1000,19.5019992199749,13.8411657124956,11.95,limited_upper_tail,expanded_calibration_v2
+fresh_independent_s07,original_full_LD,MVMR-SuSiE score component,2000,2000,1000,1000,3.25550758362254,3.25550758362254,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s07,original_full_LD,MVMR-IVW,2000,2000,1000,1000,2.12802666450909,2.12802666450909,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s07,original_full_LD,MVMR-Egger,2000,2000,1000,1000,2.1390825868462,2.1390825868462,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s07,original_full_LD,MVMR-Lasso,2000,2000,1000,1000,8.42663832719476,8.42663832719476,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s07,original_full_LD,MVMR-median,2000,2000,1000,1000,4.77846414735791,4.77846414735791,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s07,original_full_LD,MVMR-robust,2000,1888,945,1000,2.92907232972437,2.8853632192367,94.4,available_upper_tail,expanded_calibration_v2
+fresh_independent_s07,original_full_LD,MVMR-IVW-LD,2000,2000,1000,1000,2.12802666450908,2.12802666450908,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s07,original_full_LD,MVMR-IVW-LD-ME,2000,2000,1000,1000,2.13074091958551,2.13074091958551,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s07,original_full_LD,MVMR-Egger-LD,2000,2000,1000,1000,2.13811829190815,2.13811829190815,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s07,original_full_LD,MV-IWAS,2000,2000,1000,1000,2.1266016832199,2.1266016832199,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s07,original_full_LD,IWAS-Egger-projection,2000,2000,1000,1000,2.13517884613777,2.13517884613777,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s07,original_full_LD,MVMR-cML-SuSiE-BIC,2000,185,185,1000,25.2175389152132,17.7842652596785,9.25,limited_upper_tail,expanded_calibration_v2
+fresh_independent_s08,original_full_LD,MVMR-SuSiE score component,2000,1998,999,1000,2.63137910561805,2.63073658016369,99.9,available_upper_tail,expanded_calibration_v2
+fresh_independent_s08,original_full_LD,MVMR-IVW,2000,2000,1000,1000,2.13864438312938,2.13864438312938,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s08,original_full_LD,MVMR-Egger,2000,2000,1000,1000,2.20683231093143,2.20683231093143,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s08,original_full_LD,MVMR-Lasso,2000,2000,1000,1000,9.48495686359999,9.48495686359999,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s08,original_full_LD,MVMR-median,2000,2000,1000,1000,5.20567006440567,5.20567006440567,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s08,original_full_LD,MVMR-robust,2000,1870,935,1000,3.00784835093557,2.91931407839254,93.5,available_upper_tail,expanded_calibration_v2
+fresh_independent_s08,original_full_LD,MVMR-IVW-LD,2000,2000,1000,1000,2.13864438312938,2.13864438312938,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s08,original_full_LD,MVMR-IVW-LD-ME,2000,2000,1000,1000,2.13939068415034,2.13939068415034,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s08,original_full_LD,MVMR-Egger-LD,2000,2000,1000,1000,2.18394747307909,2.18394747307909,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s08,original_full_LD,MV-IWAS,2000,2000,1000,1000,2.10852952862751,2.10852952862751,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s08,original_full_LD,IWAS-Egger-projection,2000,2000,1000,1000,2.16773616173001,2.16773616173001,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s08,original_full_LD,MVMR-cML-SuSiE-BIC,2000,272,270,1000,18.3144425995988,12.2832052607976,13.6,limited_upper_tail,expanded_calibration_v2
+fresh_independent_s09,original_full_LD,MVMR-SuSiE score component,2000,2000,1000,1000,3.32906455720763,3.32906455720763,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s09,original_full_LD,MVMR-IVW,2000,2000,1000,1000,2.13376850401111,2.13376850401111,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s09,original_full_LD,MVMR-Egger,2000,2000,1000,1000,2.1934885248934,2.1934885248934,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s09,original_full_LD,MVMR-Lasso,2000,2000,1000,1000,9.43300648084618,9.43300648084618,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s09,original_full_LD,MVMR-median,2000,2000,1000,1000,5.27605963515969,5.27605963515969,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s09,original_full_LD,MVMR-robust,2000,1920,960,1000,3.00428608007788,2.93253155367003,96.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s09,original_full_LD,MVMR-IVW-LD,2000,2000,1000,1000,2.13376850401111,2.13376850401111,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s09,original_full_LD,MVMR-IVW-LD-ME,2000,2000,1000,1000,2.14082543711623,2.14082543711623,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s09,original_full_LD,MVMR-Egger-LD,2000,2000,1000,1000,2.17654109134672,2.17654109134672,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s09,original_full_LD,MV-IWAS,2000,2000,1000,1000,2.12039390486324,2.12039390486324,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s09,original_full_LD,IWAS-Egger-projection,2000,2000,1000,1000,2.15734599759306,2.15734599759306,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s09,original_full_LD,MVMR-cML-SuSiE-BIC,2000,165,165,1000,26.6619430364263,16.7161792634024,8.25,limited_upper_tail,expanded_calibration_v2
+fresh_independent_s10,original_full_LD,MVMR-SuSiE score component,2000,2000,1000,1000,3.03292778126559,3.03292778126559,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s10,original_full_LD,MVMR-IVW,2000,2000,1000,1000,2.1519370286184,2.1519370286184,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s10,original_full_LD,MVMR-Egger,2000,2000,1000,1000,2.17460871406379,2.17460871406379,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s10,original_full_LD,MVMR-Lasso,2000,2000,1000,1000,10.2484093396401,10.2484093396401,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s10,original_full_LD,MVMR-median,2000,2000,1000,1000,5.5389918660704,5.5389918660704,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s10,original_full_LD,MVMR-robust,2000,1899,951,1000,3.01607782674307,2.96089127523964,94.95,available_upper_tail,expanded_calibration_v2
+fresh_independent_s10,original_full_LD,MVMR-IVW-LD,2000,2000,1000,1000,2.15193702861839,2.15193702861839,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s10,original_full_LD,MVMR-IVW-LD-ME,2000,2000,1000,1000,2.14749189179124,2.14749189179124,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s10,original_full_LD,MVMR-Egger-LD,2000,2000,1000,1000,2.17944465751515,2.17944465751515,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s10,original_full_LD,MV-IWAS,2000,2000,1000,1000,2.12842984624224,2.12842984624224,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s10,original_full_LD,IWAS-Egger-projection,2000,2000,1000,1000,2.16453781782849,2.16453781782849,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s10,original_full_LD,MVMR-cML-SuSiE-BIC,2000,246,242,1000,17.4028069234129,12.0258414841567,12.3,limited_upper_tail,expanded_calibration_v2
+fresh_independent_s11,original_full_LD,MVMR-SuSiE score component,2000,2000,1000,1000,3.22702287332534,3.22702287332534,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s11,original_full_LD,MVMR-IVW,2000,2000,1000,1000,2.07879301551153,2.07879301551153,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s11,original_full_LD,MVMR-Egger,2000,2000,1000,1000,2.16773709463516,2.16773709463516,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s11,original_full_LD,MVMR-Lasso,2000,2000,1000,1000,8.90112969456679,8.90112969456679,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s11,original_full_LD,MVMR-median,2000,2000,1000,1000,4.99013038687834,4.99013038687834,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s11,original_full_LD,MVMR-robust,2000,1878,940,1000,2.96761614230425,2.87731613572869,93.9,available_upper_tail,expanded_calibration_v2
+fresh_independent_s11,original_full_LD,MVMR-IVW-LD,2000,2000,1000,1000,2.07879301551153,2.07879301551153,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s11,original_full_LD,MVMR-IVW-LD-ME,2000,2000,1000,1000,2.07905739202244,2.07905739202244,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s11,original_full_LD,MVMR-Egger-LD,2000,2000,1000,1000,2.18013657693652,2.18013657693652,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s11,original_full_LD,MV-IWAS,2000,2000,1000,1000,2.06992232613045,2.06992232613045,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s11,original_full_LD,IWAS-Egger-projection,2000,2000,1000,1000,2.15740031001441,2.15740031001441,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s11,original_full_LD,MVMR-cML-SuSiE-BIC,2000,164,164,1000,25.8912946362055,16.8659229038401,8.2,limited_upper_tail,expanded_calibration_v2
+fresh_independent_s12,original_full_LD,MVMR-SuSiE score component,2000,2000,1000,1000,2.87419917427716,2.87419917427716,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s12,original_full_LD,MVMR-IVW,2000,2000,1000,1000,2.19942503655609,2.19942503655609,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s12,original_full_LD,MVMR-Egger,2000,2000,1000,1000,2.199269073586,2.199269073586,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s12,original_full_LD,MVMR-Lasso,2000,2000,1000,1000,9.82804079531342,9.82804079531342,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s12,original_full_LD,MVMR-median,2000,2000,1000,1000,5.56102914659383,5.56102914659383,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s12,original_full_LD,MVMR-robust,2000,1892,946,1000,2.79604087171792,2.78244920314195,94.6,available_upper_tail,expanded_calibration_v2
+fresh_independent_s12,original_full_LD,MVMR-IVW-LD,2000,2000,1000,1000,2.19942503655608,2.19942503655608,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s12,original_full_LD,MVMR-IVW-LD-ME,2000,2000,1000,1000,2.20054136953754,2.20054136953754,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s12,original_full_LD,MVMR-Egger-LD,2000,2000,1000,1000,2.19721315163543,2.19721315163543,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s12,original_full_LD,MV-IWAS,2000,2000,1000,1000,2.18425935952966,2.18425935952966,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s12,original_full_LD,IWAS-Egger-projection,2000,2000,1000,1000,2.17552832169428,2.17552832169428,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s12,original_full_LD,MVMR-cML-SuSiE-BIC,2000,264,262,1000,17.7408539260112,12.5379517626248,13.2,limited_upper_tail,expanded_calibration_v2
+fresh_independent_s13,original_full_LD,MVMR-SuSiE score component,2000,1994,997,1000,3.13170519715369,3.12216471799245,99.7,available_upper_tail,expanded_calibration_v2
+fresh_independent_s13,original_full_LD,MVMR-IVW,2000,2000,1000,1000,2.22661583925253,2.22661583925253,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s13,original_full_LD,MVMR-Egger,2000,2000,1000,1000,2.23925912625074,2.23925912625074,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s13,original_full_LD,MVMR-Lasso,2000,2000,1000,1000,6.09360961801429,6.09360961801429,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s13,original_full_LD,MVMR-median,2000,2000,1000,1000,3.99920026971384,3.99920026971384,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s13,original_full_LD,MVMR-robust,2000,1906,953,1000,7.62571555001398,7.47534223793321,95.3,available_upper_tail,expanded_calibration_v2
+fresh_independent_s13,original_full_LD,MVMR-IVW-LD,2000,2000,1000,1000,2.22661583925253,2.22661583925253,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s13,original_full_LD,MVMR-IVW-LD-ME,2000,2000,1000,1000,2.26404104865154,2.26404104865154,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s13,original_full_LD,MVMR-Egger-LD,2000,2000,1000,1000,2.18943773693269,2.18943773693269,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s13,original_full_LD,MV-IWAS,2000,2000,1000,1000,2.21765897957741,2.21765897957741,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s13,original_full_LD,IWAS-Egger-projection,2000,2000,1000,1000,2.18537084405331,2.18537084405331,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s13,original_full_LD,MVMR-cML-SuSiE-BIC,2000,254,254,1000,25.1822534112812,18.8826839630596,12.7,limited_upper_tail,expanded_calibration_v2
+fresh_independent_s14,original_full_LD,MVMR-SuSiE score component,2000,1998,999,1000,2.63778954519777,2.63569588604392,99.9,available_upper_tail,expanded_calibration_v2
+fresh_independent_s14,original_full_LD,MVMR-IVW,2000,2000,1000,1000,2.29768302652659,2.29768302652659,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s14,original_full_LD,MVMR-Egger,2000,2000,1000,1000,2.26425662134845,2.26425662134845,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s14,original_full_LD,MVMR-Lasso,2000,2000,1000,1000,7.23700761444555,7.23700761444555,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s14,original_full_LD,MVMR-median,2000,2000,1000,1000,4.28643853110709,4.28643853110709,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s14,original_full_LD,MVMR-robust,2000,1928,964,1000,9.7231274148353,9.61888010763879,96.4,available_upper_tail,expanded_calibration_v2
+fresh_independent_s14,original_full_LD,MVMR-IVW-LD,2000,2000,1000,1000,2.2976830265266,2.2976830265266,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s14,original_full_LD,MVMR-IVW-LD-ME,2000,2000,1000,1000,2.30797062227963,2.30797062227963,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s14,original_full_LD,MVMR-Egger-LD,2000,2000,1000,1000,2.26877168238716,2.26877168238716,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s14,original_full_LD,MV-IWAS,2000,2000,1000,1000,2.28433190812955,2.28433190812955,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s14,original_full_LD,IWAS-Egger-projection,2000,2000,1000,1000,2.25497223317686,2.25497223317686,100.0,available_upper_tail,expanded_calibration_v2
+fresh_independent_s14,original_full_LD,MVMR-cML-SuSiE-BIC,2000,214,214,1000,18.0501205222185,12.6465275501867,10.7,limited_upper_tail,expanded_calibration_v2
+fresh_central_s01,matched_r2_0.01,MVMR-SuSiE score component,2000,8,4,1000,3.07034914817785,0.0,0.4,sparse_upper_tail,expanded_calibration_v2
+fresh_central_s01,matched_r2_0.01,MVMR-IVW,2000,1162,581,1000,6.66137508552519,4.77936709273359,58.1,available_upper_tail,expanded_calibration_v2
+fresh_central_s01,matched_r2_0.01,MVMR-Egger,2000,218,109,1000,9.79129229003864,1.29978570915689,10.9,limited_upper_tail,expanded_calibration_v2
+fresh_central_s01,matched_r2_0.01,MVMR-Lasso,2000,1160,580,1000,9.13471821152895,7.16823470304592,58.0,available_upper_tail,expanded_calibration_v2
+fresh_central_s01,matched_r2_0.01,MVMR-median,2000,1162,581,1000,3.30248086685738,2.7493429397953,58.1,available_upper_tail,expanded_calibration_v2
+fresh_central_s01,matched_r2_0.01,MVMR-robust,2000,0,0,1000,,0.0,0.0,no_usable_nulls,expanded_calibration_v2
+fresh_central_s01,matched_r2_0.01,MVMR-IVW-LD,2000,1162,581,1000,6.56644613759851,4.69786476606703,58.1,available_upper_tail,expanded_calibration_v2
+fresh_central_s01,matched_r2_0.01,MVMR-IVW-LD-ME,2000,626,313,1000,2.46891454289428,1.43900131736472,31.3,available_upper_tail,expanded_calibration_v2
+fresh_central_s01,matched_r2_0.01,MVMR-Egger-LD,2000,218,109,1000,8.51038697453984,1.14960911525548,10.9,limited_upper_tail,expanded_calibration_v2
+fresh_central_s01,matched_r2_0.01,MV-IWAS,2000,1162,581,1000,6.60553755853431,4.7684902391527,58.1,available_upper_tail,expanded_calibration_v2
+fresh_central_s01,matched_r2_0.01,IWAS-Egger-projection,2000,218,109,1000,8.4652743944162,1.1549899973747,10.9,limited_upper_tail,expanded_calibration_v2
+fresh_central_s01,matched_r2_0.01,MVMR-cML-SuSiE-BIC,2000,51,51,1000,35.9248293302054,0.0,2.55,sparse_upper_tail,expanded_calibration_v2
+fresh_central_s01,original_full_LD,MVMR-SuSiE score component,2000,1996,998,1000,2.91724850402257,2.91716225088088,99.8,available_upper_tail,expanded_calibration_v2
+fresh_central_s01,original_full_LD,Oracle-support-profile-working,2000,2000,1000,1000,2.19307170315428,2.19307170315428,100.0,available_upper_tail,expanded_calibration_v2
+fresh_central_s01,original_full_LD,MVMR-IVW-LD,2000,2000,1000,1000,2.93307658238254,2.93307658238254,100.0,available_upper_tail,expanded_calibration_v2
+fresh_central_s01,original_full_LD,MVMR-IVW-LD-ME,2000,2000,1000,1000,3.07243085601994,3.07243085601994,100.0,available_upper_tail,expanded_calibration_v2
+fresh_central_s01,original_full_LD,MVMR-Egger-LD,2000,2000,1000,1000,2.69520550223329,2.69520550223329,100.0,available_upper_tail,expanded_calibration_v2
+fresh_central_s01,original_full_LD,MV-IWAS,2000,2000,1000,1000,2.3930904199042,2.3930904199042,100.0,available_upper_tail,expanded_calibration_v2
+central_gaussian,matched_r2_0.01,MVMR-SuSiE score component,2000,2,1,1000,4.94065011481073,0.0,0.1,sparse_upper_tail,expanded_calibration_v2
+central_gaussian,matched_r2_0.01,MVMR-IVW,2000,1116,558,1000,8.78060174384979,5.79718282201607,55.8,available_upper_tail,expanded_calibration_v2
+central_gaussian,matched_r2_0.01,MVMR-Egger,2000,236,118,1000,7.81953365352678,1.53139939113102,11.8,limited_upper_tail,expanded_calibration_v2
+central_gaussian,matched_r2_0.01,MVMR-Lasso,2000,1108,554,1000,10.2545252729629,7.7160164204769,55.4,available_upper_tail,expanded_calibration_v2
+central_gaussian,matched_r2_0.01,MVMR-median,2000,1116,558,1000,3.53461102476032,2.72615621669612,55.8,available_upper_tail,expanded_calibration_v2
+central_gaussian,matched_r2_0.01,MVMR-robust,2000,0,0,1000,,0.0,0.0,no_usable_nulls,expanded_calibration_v2
+central_gaussian,matched_r2_0.01,MVMR-IVW-LD,2000,1116,558,1000,8.71037835221131,5.85659472409683,55.8,available_upper_tail,expanded_calibration_v2
+central_gaussian,matched_r2_0.01,MVMR-IVW-LD-ME,2000,656,328,1000,2.89806231172315,1.82303687650706,32.8,available_upper_tail,expanded_calibration_v2
+central_gaussian,matched_r2_0.01,MVMR-Egger-LD,2000,236,118,1000,8.9100926116857,1.46263197889226,11.8,limited_upper_tail,expanded_calibration_v2
+central_gaussian,matched_r2_0.01,MV-IWAS,2000,1116,558,1000,8.72048248033118,5.76468992592436,55.8,available_upper_tail,expanded_calibration_v2
+central_gaussian,matched_r2_0.01,IWAS-Egger-projection,2000,236,118,1000,8.9904708097019,1.51378865835652,11.8,limited_upper_tail,expanded_calibration_v2
+central_gaussian,matched_r2_0.01,MVMR-cML-SuSiE-BIC,2000,33,33,1000,37.5663068650005,0.0,1.65,sparse_upper_tail,expanded_calibration_v2
+central_gaussian,matched_r2_0.01,Score + reference LD,2000,2,1,1000,4.7092728312256,0.0,0.1,sparse_upper_tail,expanded_calibration_v2
+central_gaussian,matched_r2_0.01,Score + whitened jackknife + LD,2000,0,0,1000,,0.0,0.0,no_usable_nulls,expanded_calibration_v2
+individual_binary,matched_r2_0.01,MVMR-SuSiE score component,1000,1000,1000,1000,2.22106870854906,2.22106870854906,50.0,available_upper_tail,expanded_calibration_v2
+individual_binary,matched_r2_0.01,MVMR-IVW,1000,1000,1000,1000,2.13079416676796,2.13079416676796,50.0,available_upper_tail,expanded_calibration_v2
+individual_binary,matched_r2_0.01,MVMR-Egger,1000,1000,1000,1000,1.99672865654186,1.99672865654186,50.0,available_upper_tail,expanded_calibration_v2
+individual_binary,matched_r2_0.01,MVMR-Lasso,1000,1000,1000,1000,2.83953185342776,2.83953185342776,50.0,available_upper_tail,expanded_calibration_v2
+individual_binary,matched_r2_0.01,MVMR-median,1000,1000,1000,1000,2.04383759609859,2.04383759609859,50.0,available_upper_tail,expanded_calibration_v2
+individual_binary,matched_r2_0.01,MVMR-robust,1000,991,991,1000,2.47080003986986,2.45969574002057,49.55,available_upper_tail,expanded_calibration_v2
+individual_binary,matched_r2_0.01,MVMR-IVW-LD,1000,1000,1000,1000,2.13079416676796,2.13079416676796,50.0,available_upper_tail,expanded_calibration_v2
+individual_binary,matched_r2_0.01,MVMR-IVW-LD-ME,1000,1000,1000,1000,2.21113481959062,2.21113481959062,50.0,available_upper_tail,expanded_calibration_v2
+individual_binary,matched_r2_0.01,MVMR-Egger-LD,1000,1000,1000,1000,1.99672865654186,1.99672865654186,50.0,available_upper_tail,expanded_calibration_v2
+individual_binary,matched_r2_0.01,MV-IWAS,1000,1000,1000,1000,2.09445908745147,2.09445908745147,50.0,available_upper_tail,expanded_calibration_v2
+individual_binary,matched_r2_0.01,IWAS-Egger-projection,1000,1000,1000,1000,1.97568245061955,1.97568245061955,50.0,available_upper_tail,expanded_calibration_v2
+individual_binary,matched_r2_0.01,MVMR-cML-SuSiE-BIC,1000,203,203,1000,8.4112156915871,7.0766608614249,10.15,limited_upper_tail,expanded_calibration_v2
+individual_binary,matched_r2_0.01,Score + reference LD,1000,1000,1000,1000,2.22106870854906,2.22106870854906,50.0,available_upper_tail,expanded_calibration_v2
+individual_binary,matched_r2_0.01,Score + whitened jackknife + LD,1000,0,0,1000,,0.0,0.0,no_usable_nulls,expanded_calibration_v2
+central_gaussian,original_full_LD,MVMR-SuSiE score component,2000,2000,1000,1000,3.08060204664608,3.08060204664608,100.0,available_upper_tail,expanded_calibration_v2
+central_gaussian,original_full_LD,MVMR-IVW-LD,2000,2000,1000,1000,2.97321366157434,2.97321366157434,100.0,available_upper_tail,expanded_calibration_v2
+central_gaussian,original_full_LD,MVMR-IVW-LD-ME,2000,2000,1000,1000,3.09031110054843,3.09031110054843,100.0,available_upper_tail,expanded_calibration_v2
+central_gaussian,original_full_LD,MVMR-Egger-LD,2000,2000,1000,1000,2.70546158618857,2.70546158618857,100.0,available_upper_tail,expanded_calibration_v2
+central_gaussian,original_full_LD,MV-IWAS,2000,2000,1000,1000,2.44277618941506,2.44277618941506,100.0,available_upper_tail,expanded_calibration_v2
+central_gaussian,original_full_LD,Score + reference LD,2000,2000,1000,1000,2.40161365425281,2.40161365425281,100.0,available_upper_tail,expanded_calibration_v2
+central_gaussian,original_full_LD,Score + whitened jackknife + LD,2000,1996,998,1000,2.18357881678136,2.18105275363833,99.8,available_upper_tail,expanded_calibration_v2
+individual_binary,original_full_LD,MVMR-SuSiE score component,1000,1000,1000,1000,2.22106870854906,2.22106870854906,50.0,available_upper_tail,expanded_calibration_v2
+individual_binary,original_full_LD,MVMR-IVW,1000,1000,1000,1000,2.13079416676796,2.13079416676796,50.0,available_upper_tail,expanded_calibration_v2
+individual_binary,original_full_LD,MVMR-Egger,1000,1000,1000,1000,1.99672865654186,1.99672865654186,50.0,available_upper_tail,expanded_calibration_v2
+individual_binary,original_full_LD,MVMR-Lasso,1000,1000,1000,1000,2.83953185342776,2.83953185342776,50.0,available_upper_tail,expanded_calibration_v2
+individual_binary,original_full_LD,MVMR-median,1000,1000,1000,1000,2.04383759609859,2.04383759609859,50.0,available_upper_tail,expanded_calibration_v2
+individual_binary,original_full_LD,MVMR-robust,1000,991,991,1000,2.47080003986986,2.45969574002057,49.55,available_upper_tail,expanded_calibration_v2
+individual_binary,original_full_LD,MVMR-IVW-LD,1000,1000,1000,1000,2.13079416676796,2.13079416676796,50.0,available_upper_tail,expanded_calibration_v2
+individual_binary,original_full_LD,MVMR-IVW-LD-ME,1000,1000,1000,1000,2.21113481959062,2.21113481959062,50.0,available_upper_tail,expanded_calibration_v2
+individual_binary,original_full_LD,MVMR-Egger-LD,1000,1000,1000,1000,1.99672865654186,1.99672865654186,50.0,available_upper_tail,expanded_calibration_v2
+individual_binary,original_full_LD,MV-IWAS,1000,1000,1000,1000,2.09445908745147,2.09445908745147,50.0,available_upper_tail,expanded_calibration_v2
+individual_binary,original_full_LD,IWAS-Egger-projection,1000,1000,1000,1000,1.97568245061955,1.97568245061955,50.0,available_upper_tail,expanded_calibration_v2
+individual_binary,original_full_LD,MVMR-cML-SuSiE-BIC,1000,203,203,1000,8.4112156915871,7.0766608614249,10.15,limited_upper_tail,expanded_calibration_v2
+individual_binary,original_full_LD,Score + reference LD,1000,1000,1000,1000,2.22106870854906,2.22106870854906,50.0,available_upper_tail,expanded_calibration_v2
+individual_binary,original_full_LD,Score + whitened jackknife + LD,1000,0,0,1000,,0.0,0.0,no_usable_nulls,expanded_calibration_v2

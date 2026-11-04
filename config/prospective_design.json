@@ -1,0 +1,65 @@
+{
+  "datasets": 4000,
+  "per_cohort": 500,
+  "scenarios": [
+    [
+      "scalar_null",
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      "scalar_strong",
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      "scalar_weak",
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      "scalar_ld",
+      1,
+      0.8,
+      0,
+      0
+    ],
+    [
+      "joint_null",
+      3,
+      0,
+      0,
+      1
+    ],
+    [
+      "joint_strong",
+      3,
+      0,
+      0,
+      0
+    ],
+    [
+      "joint_weak",
+      3,
+      0,
+      1,
+      0
+    ],
+    [
+      "joint_ld",
+      3,
+      0.8,
+      0,
+      0
+    ]
+  ],
+  "generator": "Gaussian independent two-sample summaries: m=12; n1=n2=n_select=10000; homogeneous sx=sy=.01; exposure error correlation .4; AR(1) LD rho=0 or .8; independent outcome-selection summary. Three invalid SNPs, alpha uniform(.04,.10). Gamma uniform(.04,.12), or (.005,.015) for weak designs. Independent 503-person Gaussian LD reference generated for LD sensitivities. Conditional theta0=0, or .2 for M=1, or (.2,.1,0) for M=3.",
+  "inference": "Separate support-robust Anderson-Rubin union. User-declared sensitivity bound s_max=3, not selected from truth. Enumerate every size-three nuisance support among 12 SNPs. Each fixed-support joint region uses chi-square(m-3), with correct known LD and homogeneous Gaussian errors; union over supports protects the true support if at most three invalid SNPs. Project union into coordinate confidence sets without truncating unbounded or disconnected sets. No recentering on EB points. Reference-503 analysis is explicitly a working-LD sensitivity without finite-reference guarantee.",
+  "multiplicity": "For current score p-values, compute raw, Holm, Bonferroni and BH with full scheduled family M and unavailable p=1 solely as no-rejection bookkeeping. No failed coefficient is imputed. Treat these as empirical performance, not proof of post-selection validity. Projected joint AR sets provide simultaneous coverage under their stated model."
+}
