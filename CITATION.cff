@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "Please cite the accompanying MR-SuSiE manuscript when using these analyses."
 type: software
-title: "MR-SuSiE analysis and reproducibility"
-version: "2026.11.04"
+title: "MR-SuSiE"
+version: "0.2.0"
 date-released: "2026-11-04"
 authors:
   - family-names: Chen
@@ -10,7 +10,7 @@ authors:
 license: MIT
 preferred-citation:
   type: unpublished
-  title: "MR-SuSiE: A sparse Bayesian method for identifying causal exposures and invalid instruments in univariable and multivariable Mendelian randomization"
+  title: "MR-SuSiE: Joint prioritization of exposures and direct variant effects in Mendelian randomization"
   authors:
     - family-names: Chen
       given-names: Siyi

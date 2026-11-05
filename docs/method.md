@@ -1,5 +1,7 @@
 # Method interface
 
+Install the package, load `library(MRSuSiE)` and construct `model <- make_mr_susie()`. The installed model is independent of the working directory. `system.file("examples", package="MRSuSiE")` locates the supplied synthetic inputs.
+
 `make_mr_susie()` constructs the common model. Its `fit()` interface accepts an m-by-M exposure-association matrix `B`, the corresponding standard-error matrix `sX`, outcome associations `y`, outcome standard errors `sy`, signed LD `R`, and the M-by-M exposure-error correlation matrix `Sigma_exp`.
 
 The selection-outcome associations, standard errors and sample-size parameter are supplied separately. The caller explicitly declares whether the selection and estimation outcomes reuse data. The default interface assumes zero exposure–outcome error covariance. Supplying an exposure-error correlation matrix does not model that overlap.
