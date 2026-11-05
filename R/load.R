@@ -1,8 +1,19 @@
-make_mr_susie <- function(root='.', work_dir=file.path(tempdir(),'mr_susie')) {
+make_mr_susie <- function(root=NULL, work_dir=file.path(tempdir(),'mr_susie')) {
+  if (is.null(root)) {
+    root <- system.file('engine', package='MRSuSiE')
+    if (!nzchar(root)) root <- '.'
+  }
   root <- normalizePath(root, mustWork=TRUE)
   stopifnot(file.exists(file.path(root,'R/selector.R')))
-  required <- c('Rcpp','RcppArmadillo','susieR','MASS','jsonlite','digest')
-  missing <- required[!vapply(required,requireNamespace,logical(1),quietly=TRUE)]
+  available <- c(
+    Rcpp=requireNamespace('Rcpp',quietly=TRUE),
+    RcppArmadillo=requireNamespace('RcppArmadillo',quietly=TRUE),
+    susieR=requireNamespace('susieR',quietly=TRUE),
+    MASS=requireNamespace('MASS',quietly=TRUE),
+    jsonlite=requireNamespace('jsonlite',quietly=TRUE),
+    digest=requireNamespace('digest',quietly=TRUE)
+  )
+  missing <- names(available)[!available]
   if(length(missing)) stop('Missing R dependencies: ',paste(missing,collapse=', '))
   stopifnot(as.character(utils::packageVersion('susieR'))=='0.14.2')
   e <- new.env(parent=globalenv())

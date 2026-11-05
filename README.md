@@ -1,8 +1,28 @@
-# MR-SuSiE analysis and reproducibility
+# MR-SuSiE
 
 MR-SuSiE jointly localizes candidate causal exposures and direct variant effects. UVMR-SuSiE is the single-exposure case. MVMR-SuSiE applies the same model jointly to multiple exposures.
 
-This directory is a standalone analysis companion to the MR-SuSiE software. It contains the common implementation, synthetic worked examples, simulation generators and plans, application scripts, comparator adapters, metric summaries and the Table S1 workbook. It can be added as a separate analysis directory in the existing repository. It does not replace that repository's installed package namespace.
+The R package provides the common method and its UVMR-SuSiE and MVMR-SuSiE specializations. This repository also contains the simulation and application scripts, synthetic examples, comparator adapters and reported numerical tables.
+
+Use the contents of this directory as the repository root, including the package metadata and hidden build-configuration files.
+
+## Installation
+
+```r
+if (!requireNamespace("remotes", quietly = TRUE)) install.packages("remotes")
+remotes::install_github("chen-siyi7/MR-SuSiE", dependencies = NA, upgrade = "never")
+library(MRSuSiE)
+model <- make_mr_susie()
+```
+
+A C++ compiler and R development tools are required when installing from source. The numerical helpers are compiled during package installation. Installed fits use those helpers without compiling code at runtime. The method uses susieR 0.14.2. If a different version is installed, use the dependency instructions below to install 0.14.2 first.
+
+To install a downloaded source archive:
+
+```r
+install.packages("MRSuSiE_0.2.0.tar.gz", repos = NULL, type = "source")
+```
+
 
 ## Requirements
 
@@ -27,7 +47,7 @@ The analyses were checked with R 4.5.1. A C++ compiler and R development tools a
 
 The worked examples require Rcpp, RcppArmadillo, susieR, MASS, jsonlite and digest. The comparator and workbook packages are needed for their respective optional analyses.
 
-Run the core block first. It uses the tested versions listed above and reuses packages that already have the matching version. These commands install dependencies for the standalone analysis scripts.
+Run the core block first. It uses the tested versions listed above and reuses packages that already have the matching version. These commands install the checked dependencies for the package and analysis scripts.
 
 ```r
 options(repos = c(CRAN = "https://cloud.r-project.org"))
@@ -208,20 +228,23 @@ The optional support-union sensitivity uses the chi-square functions supplied wi
 
 ## Worked examples
 
-From this directory, run:
+From a source checkout, run:
 
 ```sh
 Rscript examples/run_examples.R
 ```
 
-The script analyzes one exposure and three exposures and checks the posterior-mean points, corrected-score centers, standard errors, confidence limits and p-values against the supplied expected outputs. The first run compiles small numerical helpers. Generated files are kept under `runtime/` and `results/`.
+The script analyzes one exposure and three exposures and checks the posterior-mean points, corrected-score centers, standard errors, confidence limits and p-values against the supplied expected outputs. With the package installed, the examples use its compiled numerical helpers. Generated files are kept under `runtime/` and `results/`.
 
 For use from R:
 
 ```r
-source("R/load.R")
+library(MRSuSiE)
 model <- make_mr_susie()
-x <- jsonlite::read_json("examples/joint_strong_0001.json", simplifyVector = TRUE)
+x <- jsonlite::read_json(
+  system.file("examples", "joint_strong_0001.json", package = "MRSuSiE"),
+  simplifyVector = TRUE
+)
 fit <- model$fit(
   x$B, matrix(x$sx, nrow(x$B), ncol(x$B)),
   x$y, rep(x$sy, nrow(x$B)), x$R, x$Sigma,
@@ -266,8 +289,11 @@ The optional Gaussian sensitivity is implemented in R/support_union.R. It allows
 From R:
 
 ```r
-source("R/support_union.R")
-x <- jsonlite::read_json("examples/support_union_example.json", simplifyVector = TRUE)
+library(MRSuSiE)
+x <- jsonlite::read_json(
+  system.file("examples", "support_union_example.json", package = "MRSuSiE"),
+  simplifyVector = TRUE
+)
 result <- do.call(union_ar, x)
 result$sets
 result$joint_null_p
@@ -301,11 +327,11 @@ Rscript tests/check_analysis.R
 Rscript tests/check_support_union.R
 ```
 
-The first numerical test may compile the helpers.
+The analysis scripts and their checks run from a source checkout. Package tests exercise the installed interface and native helpers.
 
 ## Citation and license
 
-Please cite the accompanying manuscript, “MR-SuSiE: A sparse Bayesian method for identifying causal exposures and invalid instruments in univariable and multivariable Mendelian randomization,” by Siyi Chen. Citation metadata are provided in `CITATION.cff`.
+Please cite the accompanying manuscript, “MR-SuSiE: Joint prioritization of exposures and direct variant effects in Mendelian randomization,” by Siyi Chen. Citation metadata are provided in `CITATION.cff`.
 
 The analysis code is distributed under the MIT license. External packages and source data retain their respective licenses and access conditions.
 
