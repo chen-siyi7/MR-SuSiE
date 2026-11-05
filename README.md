@@ -27,10 +27,32 @@ The analyses were checked with R 4.5.1. A C++ compiler and R development tools a
 
 The worked examples require Rcpp, RcppArmadillo, susieR, MASS, jsonlite and digest. The comparator and workbook packages are needed for their respective optional analyses.
 
-To install the core versions:
+Run the core block first. It uses the tested versions listed above and reuses packages that already have the matching version. These commands install dependencies for the standalone analysis scripts.
 
 ```r
-install.packages("remotes")
+options(repos = c(CRAN = "https://cloud.r-project.org"))
+options(timeout = 600)
+
+if (!requireNamespace("remotes", quietly = TRUE)) {
+  install.packages("remotes")
+}
+
+install_checked_versions <- function(versions) {
+  for (package in names(versions)) {
+    current <- tryCatch(utils::packageVersion(package), error = function(e) NULL)
+    if (is.null(current) || current != package_version(versions[[package]])) {
+      remotes::install_version(
+        package = package,
+        version = versions[[package]],
+        repos = getOption("repos"),
+        dependencies = NA,
+        upgrade = "never"
+      )
+    }
+  }
+  invisible(NULL)
+}
+
 required <- c(
   Rcpp = "1.1.2",
   RcppArmadillo = "15.4.2-1",
@@ -39,21 +61,40 @@ required <- c(
   jsonlite = "2.0.0",
   digest = "0.6.39"
 )
-for (package in names(required)) {
-  remotes::install_version(package, version = required[[package]], upgrade = "never")
-}
+install_checked_versions(required)
 ```
 
-For the optional comparators:
+Archived versions are installed from source when a suitable binary is unavailable. Install the compiler toolchain for your R platform before running these commands. The version comparison treats equivalent forms such as 15.4.2-1 and 15.4.2.1 consistently.
+
+For the optional comparators, run the following after the core block. The native cML packages use the source commits recorded for the analyses.
 
 ```r
-remotes::install_version("MendelianRandomization", version = "0.10.0", upgrade = "never")
-remotes::install_github("xue-hr/MRcML@58a3481976093175cbb82a5e6bf06c10e3c576f2", upgrade = "never")
-remotes::install_github("ZhaotongL/MVMR-cML@20d09a54637e70a35f31a43d56c1e6276c99bb17", upgrade = "never")
-remotes::install_github("lapsumchan/MVMR-cML-SuSiE@da71c5cd62bda8b0e89f8732ca6013585fb9584b", upgrade = "never")
+install_checked_versions(c(
+  data.table = "1.18.4",
+  MendelianRandomization = "0.10.0"
+))
+
+remotes::install_github(
+  "xue-hr/MRcML@58a3481976093175cbb82a5e6bf06c10e3c576f2",
+  dependencies = NA, upgrade = "never", build_vignettes = FALSE
+)
+remotes::install_github(
+  "ZhaotongL/MVMR-cML@20d09a54637e70a35f31a43d56c1e6276c99bb17",
+  dependencies = NA, upgrade = "never", build_vignettes = FALSE
+)
+remotes::install_github(
+  "lapsumchan/MVMR-cML-SuSiE@da71c5cd62bda8b0e89f8732ca6013585fb9584b",
+  dependencies = NA, upgrade = "never", build_vignettes = FALSE
+)
 ```
 
-Workbook export uses readxl 1.5.0. The optional support-union sensitivity uses the chi-square functions supplied with base R.
+For workbook export:
+
+```r
+install_checked_versions(c(readxl = "1.5.0"))
+```
+
+The optional support-union sensitivity uses the chi-square functions supplied with base R. The installation arguments follow the [remotes documentation](https://remotes.r-lib.org/reference/install_version.html).
 
 <details>
 <summary>Complete recorded R package versions, including indirect dependencies</summary>
